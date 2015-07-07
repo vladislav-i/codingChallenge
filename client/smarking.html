@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="smarkingApp">
+  <head>
+    <title> Smarking </title>
+    <!-- sources -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+    <!-- d3 source -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/smarking.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/chart.css">
+    <!-- end of sources -->
+  </head>
+  <body ng-controller ="smarkingCtrl">
+    <bars data={{data}}></bars>
+  </body>
+</html>
